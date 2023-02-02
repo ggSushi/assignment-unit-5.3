@@ -34,4 +34,15 @@ function showCollection(array) {
 //testing `showCollection`
 showCollection(collection);
 
-
+// creating function `findByArtist`
+function findByArtist(artist) {
+    let filterArtist = [];
+    for (let i=0; i < collection.length; i++){
+        if (artist === collection[i].songArtist) {
+            filterArtist.push(collection[i]);
+            
+        }
+    }
+    console.log(filterArtist);
+}
+findByArtist(`Kyle Hume`);
