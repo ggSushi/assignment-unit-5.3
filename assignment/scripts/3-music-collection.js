@@ -19,7 +19,15 @@ console.table('Added', addToCollection(`"HUMBLE"`, `Kendrick Lamar`, `2017`));
 console.table('Added', addToCollection(`"Fine"`, `Kyle Hume`, `2022`));
 console.table('Added', addToCollection(`"Blood Red Summer"`, `Coheed and Cambria`, `2003`));
 
+// logging the `collection`
+//? Preferred to use the .table
+// console.log(collection);
+console.table(collection);
 
+// creating function `showCollection`
+function showCollection(array) {
+    console.log(array);
+}
 
 
 
