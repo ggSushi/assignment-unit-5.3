@@ -20,12 +20,17 @@ function search(object){
             } 
         }
     }
+    // console.logs for sanity and testing.
     if (searchResult.length >= 0) {
+        // console.log(`flag!`)
         return searchResult;
     } else {
+        // console.log(`probing!`)
         return collection;
     }
 }
+
+
 //* testing le function
 console.log(search({artist: `Jon Bellion`, year: `2017` })); // should return searchResult
 console.log(search({artist: `Jon Bellion`, year: `2018` })); // should return empty array
