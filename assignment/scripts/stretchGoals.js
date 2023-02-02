@@ -30,7 +30,6 @@ function search(object){
     }
 }
 
-
 //* testing le function
 console.log(search({artist: `Jon Bellion`, year: `2017` })); // should return searchResult
 console.log(search({artist: `Jon Bellion`, year: `2018` })); // should return empty array
