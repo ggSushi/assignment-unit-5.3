@@ -28,11 +28,9 @@ console.table(collection);
 function showCollection(array) {
     console.log(array);
     for (let track of collection) {
-        
-        console.log(`${collection[track.songTitle]} by ${collection[track.songArtist]} published in ${collection[track.songYearPublished]}`);
+        console.log(`${track.songTitle} by ${track.songArtist} published in ${track.songYearPublished}`);
     }
 }
-
 //testing `showCollection`
 showCollection(collection);
 
